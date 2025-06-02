@@ -1,0 +1,7 @@
+.color-cube {
+  background: linear-gradient(
+    to bottom,
+    hsl(235, 24%, 20%) 50%,
+    hsl(236, 22%, 30%) 50%
+  );
+}

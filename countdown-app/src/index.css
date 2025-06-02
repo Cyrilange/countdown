@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.text-primary-softRed {
+  color: hsl(345, 95%, 68%);
+}
+
+body {
+  background-color: hsl(280, 26%, 11%);
+}
