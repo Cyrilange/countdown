@@ -58,7 +58,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-[url('/images/bg-stars.svg')] bg-center bg-no-repeat flex flex-col items-center justify-center font-redhat">
+    <div className="relative min-h-screen w-full overflow-hidden bg-[url('./images/bg-stars.svg')] bg-center bg-no-repeat flex flex-col items-center justify-center font-redhat">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold mb-4 tracking-widest">
         We're launching soon
       </h1>
@@ -71,7 +71,7 @@ export default function App() {
 
       {/* Ce wrapper remplit tout l'écran grâce à min-h-screen du parent */}
       <img
-        src="/images/pattern-hills.svg"
+        src="./images/pattern-hills.svg"
         alt="hills"
         className="absolute bottom-0 left-0 w-full h-[200px] sm:h-[250px] lg:h-[350px] object-cover z-0"
       />
